@@ -1,3 +1,12 @@
+CREATE DATABASE BOOKDB;
+
+GRANT ALL privileges ON BOOKDB.* TO 'ohgiraffers'@'%';
+
+show grants for 'ohgiraffers'@'%';
+
+use bookdb;
+
+
 DROP TABLE IF EXISTS MEMBERS;
 DROP TABLE IF EXISTS BOOKS;
 DROP TABLE IF EXISTS SEARCH;
